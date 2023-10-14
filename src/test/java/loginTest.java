@@ -6,7 +6,8 @@ public class loginTest {
 
     void testlogin(){
         System.out.println("Test");
+        System.out.println("Test");
         Assertions.assertTrue(3<2);
     }
-    
+
 }
