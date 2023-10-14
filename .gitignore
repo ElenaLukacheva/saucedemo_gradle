@@ -1,0 +1,8 @@
+/.gradle
+/.idea
+*.class
+*.log
+!**/src/maim/**
+!**/src/test/**
+
+
