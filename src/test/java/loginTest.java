@@ -1,14 +1,30 @@
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class loginTest {
-    @Test
+    @BeforeAll
+    static void beforeAll(){
+        System.out.println("    это метод beforeAll");
+    }
 
+    @BeforeEach
+       void beforeEach(){
+        System.out.println("    это метод beforeEach");
+    }
+    @AfterAll
+    static void afterAll(){
+        System.out.println("    это метод afterAll");
+    }
+
+    @Test
     void testlogin(){
-        System.out.println("Test");
-        System.out.println("Test");
-        System.out.println("Test");
-        Assertions.assertTrue(3<2);
+        System.out.println("Test first");
+        Assertions.assertTrue(3>2);
+    }
+
+    @Test
+    void testlogin2(){
+        System.out.println("Test second");
+        Assertions.assertTrue(3>2);
     }
 
 }
