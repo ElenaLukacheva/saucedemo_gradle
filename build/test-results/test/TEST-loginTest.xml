@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="loginTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-15T17:28:14" hostname="ELENAL" time="0.011">
+<testsuite name="loginTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-15T20:14:29" hostname="ELENAL" time="2.672">
   <properties/>
-  <testcase name="testlogin2()" classname="loginTest" time="0.009"/>
-  <testcase name="testlogin()" classname="loginTest" time="0.001"/>
-  <system-out><![CDATA[    это метод beforeAll
-    это метод beforeEach
-Test second
-    это метод beforeEach
-Test first
-    это метод afterAll
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <testcase name="testlogin()" classname="loginTest" time="2.273"/>
+  <testcase name="testAddBasket()" classname="loginTest" time="0.398"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\Project\saucedemo\saucedemo_gradle\build\downloads\1697400869314_13144_1
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+окт. 15, 2023 11:14:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 117
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=118.0.5993.70 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.19.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.13.0 build revision: ba948ece5b*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (9b849b396853fc03e40106182505ea3a)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (9b849b396853fc03e40106182505ea3a),proxy=null,downloadsFolder=D:\Project\saucedemo\saucedemo_gradle\build\downloads\1697400869314_13144_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+]]></system-err>
 </testsuite>
