@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="loginTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-15T17:28:14" hostname="ELENAL" time="0.011">
+  <properties/>
+  <testcase name="testlogin2()" classname="loginTest" time="0.009"/>
+  <testcase name="testlogin()" classname="loginTest" time="0.001"/>
+  <system-out><![CDATA[    это метод beforeAll
+    это метод beforeEach
+Test second
+    это метод beforeEach
+Test first
+    это метод afterAll
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
